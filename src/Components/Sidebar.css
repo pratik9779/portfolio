@@ -8,11 +8,32 @@
 .logo {
     font-family: 'Eczar', serif;
     grid-row: 1;
-    font-size: 3rem;
+    font-size: 3.5rem;
     width: 150px;
     background-color: black;
     align-items: center;
+    cursor: pointer;
 }
+.logo-text {
+    position: relative;
+    display: inline-block;
+    /* font-size: 3rem; */
+    font-weight: 800;
+    color: royalblue;
+    overflow: hidden;
+    background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+    text-decoration: none; 
+}
+.logo-text:hover {
+     background-position: 0 100%;
+ }
+
 .link-container{
     grid-row: 2;
 }
@@ -28,4 +49,8 @@
 
 .other-links{
     grid-row: 3;
+}
+.links:hover{
+    /* color: cyan; */
+    transform: scale(1.2);
 }
