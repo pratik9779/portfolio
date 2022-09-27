@@ -1,15 +1,49 @@
-.sidebar{
+/* #0E0B16
+#A239CA
+#4717F6
+#E7DFDD 
+font-family: 'Encode Sans', sans-serif;
+font-family: 'JetBrains Mono', monospace;
+font-family: 'Ubuntu', sans-serif;
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.App{
     height: 100%;
-    width: 150px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #111;
+    width: 100%;
+    display : grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 10%;
+    background-color: #0E0B16;
+    color: #E7DFDD;
+    font-family: 'JetBrains Mono', monospace;
+    letter-spacing: 2px;
 }
 
-#main{
-    margin-left: 150px;
-    background-color: rgb(27, 27, 27);
-    height: 100vh;
-    width: 100%
+.app-navbar{
+    background-color : #0E0B16;
+    grid-column: 1/4;
+    grid-row : 1;
 }
+
+.app-left{
+    /* background-color: blue; */
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.app-main {
+    /* background-color: violet; */
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.app-right {
+    /* background-color: green; */
+    grid-column: 3;
+    grid-row: 2;
+}
+

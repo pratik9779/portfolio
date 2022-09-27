@@ -1,0 +1,30 @@
+.about{
+    width: 100%;
+}
+.heading{
+    font-size: 2rem;
+}
+
+.about-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+    text-align: justify;
+}
+
+.profile{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 15px;
+    border-right: 5px solid #4717F6;
+    border-bottom: 5px solid #4717F6;
+    transition: transform 1s;
+}
+
+.profile:hover{
+    /* opacity: 0.8; */
+    transform: scale(0.95);
+    transition: transform 1s;
+}
