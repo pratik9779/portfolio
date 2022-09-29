@@ -4,10 +4,10 @@ import profile from '../../../images/profile.png'
 
 function About() {
     return (
-        <div className="about ">
+        <div id="about">
             <h1 className="heading mb-10 ml-2">About Me</h1>
             <div className="about-content ">
-                <p className="mr-28 ml-2">I'm a Software Developer living in Pune, Maharashtra, India.
+                <p className="mr-28 ml-2 mt-10">I'm a Software Developer living in Pune, Maharashtra, India.
                     Currently I'm working as a Full Stack Developer (MEAN/MERN),
                     I love to design and code beautiful and simple things. <br />
                     <br />

@@ -1,8 +1,11 @@
 import React from 'react'
+import './Experience.css'
 
 function Experience() {
     return (
-        <div>Experience</div>
+        <div id="exp">
+            Experience
+        </div>
     )
 }
 

@@ -16,8 +16,8 @@ function Main() {
             <Home />
             <About />
             <Skills />
-            {/* <Experience />
-            <Education />
+            <Experience />
+            {/* <Education />
             <Projects />
             <Achievements />
             <Contact /> */}
